@@ -31,3 +31,8 @@ function show(){
     console.log(functionLet); // Throws ReferenceError
     console.log(functionConst); // Throws ReferenceError
     
+
+
+    //var globally kahin b accessble hai but jab function kai andr use krain gay to scope function tak limited rahay ga 
+    // const and let ka scope hamesha block level pr hai mean jahan sai curly braces start hui waahn sai lai kr jahan end hui wahan tak
+    // var and let mai values change ho sktee hain but const allow nhi krta changing 
